@@ -24,10 +24,10 @@ export default function HomePage() {
           }}></div>
         </div>
         
-        {/* ISUBiFY Name - Centered */}
-        <div className="relative z-10 flex items-center justify-center min-h-full">
-          <div className="text-white text-center w-full px-4">
-            <h1 className="text-4xl sm:text-6xl md:text-[12rem] lg:text-[18rem] xl:text-[24rem] font-bold font-heading leading-none">
+        {/* ISUBiFY Name - Perfectly Centered */}
+        <div className="relative z-10 flex items-center justify-center min-h-full w-full">
+          <div className="text-white text-center max-w-full px-4">
+            <h1 className="text-4xl sm:text-6xl md:text-[12rem] lg:text-[18rem] xl:text-[24rem] font-bold font-heading leading-none flex items-center justify-center">
               <span className="text-white">ISUB</span>
               <span className="text-white">i</span>
               <span className="text-white">FY</span>
