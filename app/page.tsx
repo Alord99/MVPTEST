@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div className="relative min-h-screen">
       {/* ISUBiFY Name Section */}
-      <div className="relative py-16 bg-black">
+      <div className="relative py-8 sm:py-12 md:py-16 bg-black min-h-[50vh] sm:min-h-[60vh] md:min-h-[70vh] flex items-center">
         {/* Cosmic Background */}
         <div className="absolute inset-0 bg-black">
           {/* Nebula Background */}
@@ -25,15 +25,15 @@ export default function HomePage() {
         </div>
         
         {/* ISUBiFY Name - Centered */}
-        <div className="relative z-10 flex items-center justify-center">
+        <div className="relative z-10 flex items-center justify-center px-4">
           <div className="text-white text-center">
-            <h1 className="text-[18rem] md:text-[24rem] font-bold font-heading">
+            <h1 className="text-6xl sm:text-8xl md:text-[12rem] lg:text-[18rem] xl:text-[24rem] font-bold font-heading leading-tight">
               <span className="text-white">ISUB</span>
               <span className="text-white">i</span>
               <span className="text-white">FY</span>
-              <span className="inline-block w-12 h-12 bg-magenta-500 rounded-full ml-8 animate-pulse"></span>
+              <span className="inline-block w-3 h-3 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 bg-magenta-500 rounded-full ml-2 sm:ml-4 md:ml-6 lg:ml-8 animate-pulse"></span>
             </h1>
-            <p className="text-6xl md:text-8xl text-white/80 mt-8 font-light">
+            <p className="text-lg sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl text-white/80 mt-4 sm:mt-6 md:mt-8 font-light px-4">
               All Your Streaming Services in One Place
             </p>
           </div>
