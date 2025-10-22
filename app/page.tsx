@@ -25,15 +25,15 @@ export default function HomePage() {
         </div>
         
         {/* ISUBiFY Name - Centered */}
-        <div className="relative z-10 flex items-center justify-center px-4">
-          <div className="text-white text-center">
-            <h1 className="text-6xl sm:text-8xl md:text-[12rem] lg:text-[18rem] xl:text-[24rem] font-bold font-heading leading-tight">
+        <div className="relative z-10 flex items-center justify-center min-h-full">
+          <div className="text-white text-center w-full px-4">
+            <h1 className="text-4xl sm:text-6xl md:text-[12rem] lg:text-[18rem] xl:text-[24rem] font-bold font-heading leading-none">
               <span className="text-white">ISUB</span>
               <span className="text-white">i</span>
               <span className="text-white">FY</span>
               <span className="inline-block w-3 h-3 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-12 lg:h-12 bg-magenta-500 rounded-full ml-2 sm:ml-4 md:ml-6 lg:ml-8 animate-pulse"></span>
             </h1>
-            <p className="text-lg sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl text-white/80 mt-4 sm:mt-6 md:mt-8 font-light px-4">
+            <p className="text-sm sm:text-lg md:text-4xl lg:text-6xl xl:text-8xl text-white/80 mt-2 sm:mt-4 md:mt-8 font-light">
               All Your Streaming Services in One Place
             </p>
           </div>
