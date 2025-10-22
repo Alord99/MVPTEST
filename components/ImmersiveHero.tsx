@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { NETFLIX_SHOWS } from '@/lib/curated-shows';
 
 const MOOD_CHIPS = [
   { label: 'Chill evening', icon: '🌙', color: 'from-purple-500 to-blue-500' },
@@ -16,9 +15,6 @@ export default function ImmersiveHero() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedMood, setSelectedMood] = useState<string | null>(null);
 
-  // Get a random featured show for the hero background
-  const featuredShow = NETFLIX_SHOWS[Math.floor(Math.random() * NETFLIX_SHOWS.length)];
-
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Dynamic Background */}
@@ -28,7 +24,7 @@ export default function ImmersiveHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${featuredShow.poster})`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1489599804-1b4b0b0b0b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')`,
           filter: 'blur(2px) brightness(0.3)',
         }}
       />

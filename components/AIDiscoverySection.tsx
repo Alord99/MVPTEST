@@ -34,7 +34,7 @@ export default function AIDiscoverySection() {
         </div>
         
         <p className="text-gray-300 text-lg mb-8 max-w-3xl">
-          Describe what you're in the mood for, and we'll find the perfect match across all streaming services
+          Describe what you&apos;re in the mood for, and we&apos;ll find the perfect match across all streaming services
         </p>
 
         {/* Search Input */}

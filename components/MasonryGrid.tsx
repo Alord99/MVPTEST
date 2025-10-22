@@ -1,6 +1,6 @@
 'use client';
 
-import { CuratedShow } from '@/lib/types';
+import { CuratedShow } from '@/lib/curated-shows';
 import CuratedShowCard from './CuratedShowCard';
 
 interface MasonryGridProps {

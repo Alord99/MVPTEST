@@ -95,7 +95,7 @@ export default function AddSubscriptionDialog({ onClose }: AddSubscriptionDialog
             </label>
             <select
               value={formData.billingCycle}
-              onChange={(e) => setFormData({ ...formData, billingCycle: e.target.value as any })}
+              onChange={(e) => setFormData({ ...formData, billingCycle: e.target.value as 'monthly' | 'yearly' | 'weekly' })}
               className="w-full bg-gray-800 text-white rounded-lg px-4 py-2 border border-gray-700 focus:border-accent-teal focus:outline-none"
             >
               <option value="monthly">Monthly</option>
